@@ -1,3 +1,6 @@
 var playlist = { artistOne: "song one", artistTwo: "song two"};
 
-updatePlaylist( playlist, artistThree: "song three");
+function updatePlaylist(obj, key, value) {
+   playlist[artistThree] = "song three";
+   return playlist; 
+}
